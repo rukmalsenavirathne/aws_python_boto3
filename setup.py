@@ -19,5 +19,6 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.6',
-    install_requires=['boto3']
+    install_requires=['boto3'],
+    url="https://github.com/rukmalsenavirathne/aws_python_boto3"
 )
