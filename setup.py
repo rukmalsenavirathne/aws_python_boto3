@@ -5,14 +5,14 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="boto3form",
-    version="0.0.5",
+    version="0.0.1",
     author="Rukmal Senavirathne",
     description="Create and delete aws ecr repository using python boto3 like terraform ",
     long_description=long_description,
     long_description_content_type="text/markdown",
     # packages=setuptools.find_packages(),
-    packages=setuptools.find_packages(where="boto3form"),
-    package_dir={"": "boto3form"},
+    packages=setuptools.find_packages(),
+    # package_dir={"": "boto3form"},
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
